@@ -43,7 +43,7 @@ public class TestBase {
 	
 	
 	public static void Initialization() {
-		String browser = prop.getProperty("Browser");
+		String browser = prop.getProperty("Browser"); 
 
 		if (browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
